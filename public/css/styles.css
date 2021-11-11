@@ -1,0 +1,26 @@
+.hover-card:hover {
+  padding: 0px;
+  font-size: large;
+}
+
+.hover-card {
+  transition: font-size 1s;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(-45deg, #ffffff, #a9a9a9, #fff, #c0c0c0);
+  background-size: 300% 300%;
+  animation: gradient 8s ease infinite;
+}
