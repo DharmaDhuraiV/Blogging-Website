@@ -12,20 +12,20 @@ https://drive.google.com/file/d/1gnfo6YJ4Te-uRLyl3A80XrffJ5NuBkt9/view
 <h3>File Organization</h3>
 
 &emsp;root<br>
-&emsp;│&emsp;.gitignore<br>
-&emsp;│&emsp;package-lock.json<br>
-&emsp;│&emsp;package.json<br>
-&emsp;│&emsp;Procfile<br>
+&emsp;│&emsp;.gitignore - git related file<br>
+&emsp;│&emsp;package-lock.json - created for node modules node modeules<br>
+&emsp;│&emsp;package.json - describes the node app and its dependencies<br>
+&emsp;│&emsp;Procfile - specifies the configuration for deploying the node app on heroku<br>
 &emsp;│&emsp;README.md<br>
-&emsp;│&emsp;server.js<br>
+&emsp;│&emsp;server.js - the main file containing the routes<br>
 &emsp;│<br>
-&emsp;│───db<br>
-&emsp;│&emsp;&emsp;analytics.js<br>
-&emsp;│&emsp;&emsp;auth.js<br>
-&emsp;│&emsp;&emsp;database.js<br>
-&emsp;│&emsp;&emsp;DBConnect.js<br>
+&emsp;│───db - folder containing database, analytics and authentication related functions<br>
+&emsp;│&emsp;&emsp;analytics.js - funtions for returing data(based on similarity)<br>
+&emsp;│&emsp;&emsp;auth.js - funtions for authenticating routes<br> 
+&emsp;│&emsp;&emsp;database.js - funtions to retrive data from heroku postgres database<br>
+&emsp;│&emsp;&emsp;DBConnect.js - funtions to connect to database<br>
 &emsp;│<br>
-&emsp;│───public<br>
+&emsp;│───public - contains all the static files<br>
 &emsp;│&emsp;&emsp;├───css<br>
 &emsp;│&emsp;&emsp;│&emsp;&emsp;bootstrap.min.css<br>
 &emsp;│&emsp;&emsp;│&emsp;&emsp;bootstrap.min.css.map<br>
@@ -47,12 +47,12 @@ https://drive.google.com/file/d/1gnfo6YJ4Te-uRLyl3A80XrffJ5NuBkt9/view
 &emsp;│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;signup.js<br>
 &emsp;│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;userpage.js<br>
 &emsp;│<br>
-&emsp;├───routes<br>
-&emsp;│&emsp;&emsp;databaseAPI.js<br>
-&emsp;│&emsp;&emsp;likeCommentAPI.js<br>
-&emsp;│&emsp;&emsp;trackingAPI.js<br>
+&emsp;├───routes - additional routes<br>
+&emsp;│&emsp;&emsp;databaseAPI.js - functions for creating a record in database<br>
+&emsp;│&emsp;&emsp;likeCommentAPI.js - functions to create a record in bloglikes table<br>
+&emsp;│&emsp;&emsp;trackingAPI.js - functions to create a record in tracking table<br>
 &emsp;│<br>
-&emsp;└───views<br>
+&emsp;└───views - contains all the frontend pages<br>
 &emsp;&emsp;&emsp;│&emsp;&emsp;create_blog.handlebars<br>
 &emsp;&emsp;&emsp;│&emsp;&emsp;editBlog.handlebars<br>
 &emsp;&emsp;&emsp;│&emsp;&emsp;loading.handlebars<br>
