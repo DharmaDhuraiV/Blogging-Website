@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1gnfo6YJ4Te-uRLyl3A80XrffJ5NuBkt9/view
 
 &emsp;root<br>
 &emsp;│&emsp;.gitignore - git related file<br>
-&emsp;│&emsp;package-lock.json - created for node modules node modeules<br>
+&emsp;│&emsp;package-lock.json - created for node modules<br>
 &emsp;│&emsp;package.json - describes the node app and its dependencies<br>
 &emsp;│&emsp;Procfile - specifies the configuration for deploying the node app on heroku<br>
 &emsp;│&emsp;README.md<br>
