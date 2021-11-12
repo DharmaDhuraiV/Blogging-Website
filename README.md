@@ -9,6 +9,9 @@ For the users, they have the ability to view/like/comment a blog, follow the blo
 <h3>Demo video Link</h3>
 https://drive.google.com/file/d/1gnfo6YJ4Te-uRLyl3A80XrffJ5NuBkt9/view
 
+<h3>Blog website link:</h3>
+https://simple-blog-app-1.herokuapp.com/login
+
 <h3>File Organization</h3>
 
 &emsp;root<br>
