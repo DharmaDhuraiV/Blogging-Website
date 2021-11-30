@@ -16,7 +16,6 @@ https://simple-blog-app-1.herokuapp.com/login
 
 &emsp;root<br>
 &emsp;│&emsp;.gitignore - git related file<br>
-&emsp;│&emsp;package-lock.json - created for node modules<br>
 &emsp;│&emsp;package.json - describes the node app and its dependencies<br>
 &emsp;│&emsp;Procfile - specifies the configuration for deploying the node app on heroku<br>
 &emsp;│&emsp;README.md<br>
